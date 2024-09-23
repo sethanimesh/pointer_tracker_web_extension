@@ -6,11 +6,8 @@
   "version": "1.0",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "storage"],
   "host_permissions": ["<all_urls>"],
-  "action": {
-    "default_popup": "index.html"
-  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
