@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Mouse Movement Tracker",
+  "short_name": "MouseTracker",
+  "description": "Track and display mouse movements and clicks in real-time.",
+  "version": "1.0",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "orientation": "portrait",
+  "permissions": [],
+  "action": {
+    "default_popup": "index.html"
+    }
+  }
