@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mouse Movement Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #trackingData {
+            width: 100%;
+            height: 300px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        #trackingData pre {
+            margin: 0;
+            font-size: 14px;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Mouse Movement Tracker</h1>
+<p>Move your mouse around and see the data being tracked below:</p>
+
+<div id="trackingData">
+    <pre>recordTimestamp, clientTimestamp, button, state, x, y</pre>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
