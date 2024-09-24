@@ -20,13 +20,13 @@ The **Mouse Movement Tracker** is a browser extension designed to monitor and tr
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/mouse-movement-tracker.git
+   git clone https://github.com/sethanimesh/pointer_tracker_web_extension.git
    ```
 
 2. Navigate to the project folder:
 
    ```bash
-   cd mouse-movement-tracker
+   pointer_tracker_web_extension
    ```
 
 3. Load the extension in your browser:
@@ -35,10 +35,6 @@ The **Mouse Movement Tracker** is a browser extension designed to monitor and tr
    - Open `chrome://extensions/`
    - Enable "Developer mode"
    - Click "Load unpacked" and select the project folder
-
-   #### Firefox
-   - Open `about:debugging#/runtime/this-firefox`
-   - Click "Load Temporary Add-on" and select the `manifest.json` file in the project directory
 
 4. The **Mouse Movement Tracker** extension will be available and ready to use in your browser.
 
@@ -76,7 +72,6 @@ mouse-movement-tracker/
 ├── manifest.json        # Extension configuration
 ├── index.html           # Extension popup (not heavily used in this project)
 ├── script.js            # Main script for tracking mouse events
-├── icons/               # Folder containing extension icons
 └── README.md            # Project documentation
 ```
 
@@ -91,24 +86,6 @@ The extension requires the following permissions:
 ## Contributing
 
 Contributions are welcome! If you find a bug or have a feature request, feel free to open an issue or submit a pull request.
-
-### Steps to Contribute
-
-1. Fork the repository.
-2. Create a new branch with your feature or bugfix:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Make your changes.
-4. Commit your changes:
-   ```bash
-   git commit -m "Add feature: your-feature-name"
-   ```
-5. Push to your fork:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-6. Open a pull request on the main repository.
 
 ## License
 
