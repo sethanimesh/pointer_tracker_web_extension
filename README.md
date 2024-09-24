@@ -1,9 +1,9 @@
 
-# Mouse Movement Tracker Extension
+# Pointer Tracker Extension
 
 ## Overview
 
-The **Mouse Movement Tracker** is a browser extension designed to monitor and track mouse movements and clicks on any web page. It records mouse events in real-time and displays the data in a floating panel at the bottom of the page. You can download the recorded data as a CSV file and clear the data to start a new session.
+The **Pointer Tracker** is a browser extension designed to monitor and track mouse movements and clicks on any web page. It records mouse events in real-time and displays the data in a floating panel at the bottom of the page. You can download the recorded data as a CSV file and clear the data to start a new session.
 
 ## Features
 
